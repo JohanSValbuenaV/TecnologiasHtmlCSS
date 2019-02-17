@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    background-color: aqua;
+    color:black;
+    /* font-size: 20px;  */
+    font-size: 1rem;
+    font-family: Arial;
+    
+}
+
+h1{
+    color: brown;
+    background-color: blueviolet;
+}
+
+a{
+    color: chartreuse;
+    background-color:darkslategray;
+}
+
+div{
+    /* width: 300px; */
+    margin: auto;
+}
+
+.segundoparrafo{
+    background-color:wheat;
+    width: 400px;
+    padding: 20px 10px;
+    margin: auto;
+}
+#primerparrafo{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    
+}
+div div h3{
+    color: tomato;
+}
+
+h2,h4{
+    color: violet;
+}
+
+/* css-tricks y codepen.io     font awesome */
+
+.padre{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hijo{
+background-color: rgba(169, 169, 204, 0.541);
+
+    width:  100px;
+    height: 100px;
+    
+}
+.hijo:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+
+.textoverde{
+    color: cadetblue;
+}
+
+.fondo{
+    padding: 20px;
+
+    background-image: url(bosque.jpg);
+}
+
+.imagen img{
+    width: 70%;
+
+}
+.line{
+    margin: 50px;
+    padding: 50px;
+}
+ul{
+    margin-left: 20px;
+    background-color: aliceblue;
+    list-style:  none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border-style: solid;
+   border-width: 1px;
+    border-color: rgb(124, 43, 43)
+}
+ul li a:hover{
+color: black;
+}
+
+/* font awesome */
+.fab{
+    font-size: 50px;
+    
+}
